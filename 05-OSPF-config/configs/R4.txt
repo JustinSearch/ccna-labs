@@ -1,0 +1,88 @@
+Current configuration : 926 bytes
+!
+version 12.2
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname R4
+!
+!
+!
+!
+!
+!
+!
+!
+no ip cef
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback1
+ ip address 4.4.4.4 255.255.255.255
+!
+interface GigabitEthernet0/0
+ ip address 192.168.4.254 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet1/0
+ ip address 10.0.24.2 255.255.255.252
+ duplex auto
+ speed auto
+!
+interface FastEthernet2/0
+ ip address 10.0.34.2 255.255.255.252
+ duplex auto
+ speed auto
+!
+router ospf 1
+ log-adjacency-changes
+ passive-interface GigabitEthernet0/0
+ passive-interface Loopback1
+ network 10.0.34.0 0.0.0.3 area 0
+ network 10.0.24.0 0.0.0.3 area 0
+ network 4.4.4.4 0.0.0.0 area 0
+ network 192.168.4.0 0.0.0.255 area 0
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+!
+no cdp run
+!
+!
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end
