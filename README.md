@@ -9,5 +9,6 @@ Hands-on labs I completed while studying for the Cisco CCNA, built in Packet Tra
 | 03 | [SVI Config](03-ROAS-config) | SVI, L3 Switching |
 | 04 | [STP Config](04-STP-config) | STP, PVST |
 | 05 | [OSPF Config](05-OSPF-config) | OSPF, ASBRs |
+| 06 | [OSPF Troubleshooting](06-OSPF-troubleshooting) | OSPF, Point-to-Point Networks, Troubleshooting |
 
 Each lab includes a topology diagram, device configs, verification commands, and notes on problems I solved.
