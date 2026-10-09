@@ -14,5 +14,6 @@ Hands-on labs I completed while studying for the Cisco CCNA, built in Packet Tra
 | 08 | [Extended ACL Config](08-Extended-ACL-config) | Extended ACLs |
 | 09 | [DNS Config](09-DNS-config) | DNS, DNS Queries |
 | 10 | [DHCP Config](10-DHCP-config) | DHCP, DHCP relays |
+| 11 | [SSH Config](11-SSH-config) | SSH, Switch Hardening |
 
 Each lab includes a topology diagram, device configs, verification commands, and notes on problems I solved.
