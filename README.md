@@ -12,5 +12,6 @@ Hands-on labs I completed while studying for the Cisco CCNA, built in Packet Tra
 | 06 | [OSPF Troubleshooting](06-OSPF-troubleshooting) | OSPF, Point-to-Point Networks, Troubleshooting |
 | 07 | [Standard ACL Config](07-Standard-ACL-config) | Standard Numbered & Named ACLs |
 | 08 | [Extended ACL Config](08-Extended-ACL-config) | Extended ACLs |
+| 09 | [DNS Config](09-DNS-config) | DNS, DNS Queries |
 
 Each lab includes a topology diagram, device configs, verification commands, and notes on problems I solved.
