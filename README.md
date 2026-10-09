@@ -16,4 +16,4 @@ Hands-on labs I completed while studying for the Cisco CCNA, built in Packet Tra
 | 10 | [DHCP Config](10-DHCP-config) | DHCP, DHCP relays |
 | 11 | [SSH Config](11-SSH-config) | SSH, Switch Hardening |
 
-Each lab includes a topology diagram, device configs, verification commands, and notes on problems I solved.
+Each lab includes a topology diagram, device configs, verification commands, and notes on what I configured and learned.
